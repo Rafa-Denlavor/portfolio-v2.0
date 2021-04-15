@@ -1,0 +1,7 @@
+.apresentacao {
+    line-height: 3.3rem;
+    align-items: center;
+    justify-content: left;
+    padding: 10rem;
+    height: calc(50vw - 133px);
+}
