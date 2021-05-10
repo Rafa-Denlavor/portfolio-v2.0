@@ -1,8 +1,7 @@
 .apresentacao__botao {
-    display: inline;
     border: 1px solid #ff7b00 4px;
     background-color: #ff7b00;
     border-radius:0.5rem;
-    padding: 0.8rem;
+    padding: 0.7rem;
     margin-right: 1.5rem;
 }

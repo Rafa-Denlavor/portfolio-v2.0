@@ -1,4 +1,6 @@
 .apresentacao {
+    display: flex;
+    flex-direction: column;
     line-height: 3.3rem;
     align-items: center;
     justify-content: left;
