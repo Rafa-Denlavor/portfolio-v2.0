@@ -2,3 +2,9 @@
     width: 40rem;
     border-radius: 100%;
 }
+
+@media screen and (min-width: 0) and (max-width: 768px) {
+    .apresentacao__imagem {
+        width: 25rem;
+    }
+}

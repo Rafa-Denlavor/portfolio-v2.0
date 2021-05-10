@@ -3,3 +3,9 @@
     text-shadow: 3px 7px 1px #ff7b00;
     font-size: 4.125rem;
 }
+
+@media screen and (max-width: 768px){
+    .cabecalho__titulo {
+        display: none;
+    }
+} 
