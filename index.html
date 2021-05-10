@@ -18,6 +18,8 @@
     <link rel="stylesheet" href="assets/css/cabecalho/menu-lista.css">
     <link rel="stylesheet" href="assets/css/cabecalho/menu-item.css">
     <link rel="stylesheet" href="assets/css/cabecalho/menu-link.css">
+    <link rel="stylesheet" href="assets/css/apresentacao/apresentacao-container.css">
+    <link rel="stylesheet" href="assets/css/apresentacao/apresentacao-imagem.css">
     <link rel="stylesheet" href="assets/css/apresentacao/apresentacao.css">
     <link rel="stylesheet" href="assets/css/apresentacao/apresentacao-titulo.css">
     <link rel="stylesheet" href="assets/css/apresentacao/apresentacao-descricao.css">
@@ -30,9 +32,11 @@
 </head>
 <body class="background__imagem">
     <header class="cabecalho">
-        <picture>
-            <img src="assets/img/logo.png" alt="Logo do Portfólio de Rafaella Denlavor" class="cabecalho__imagem">
-        </picture>
+        <div>
+            <picture>
+                <img src="assets/img/logo.png" alt="Logo do Portfólio de Rafaella Denlavor" class="cabecalho__imagem">
+            </picture>
+        </div>
         <div class="cabecalho__container"></div>
             <h1 class="cabecalho__titulo">rd</h1>
             <nav class="menu">
@@ -50,11 +54,16 @@
     <hr>
     <main>
         <section class="apresentacao">
-            <div class="apresentacao_container">
+            <div>
+                <picture>
+                    <img src="assets/img/perfil.jpg" alt="" class="apresentacao__imagem">
+                </picture>
+            </div>
+            <article class="apresentacao_container">
                 <p class="apresentacao__descricao">Hey, que bom telo por aqui! Sou</p>
                 <h2 class="apresentacao__titulo">Rafaella Denlavor</h2>
-                <p class="apresentacao__descricao">Desenvolvedora Fullstack Jr e Escritora</p>
-            <div>
+                <p class="apresentacao__descricao">tenho 18 anos, moro na capital de São Paulo e atuo como <br> Frontend Developer Jr e Escritora Freelancer.</p>
+            <article>
         </section>
         <section class="habilidades">
             <figure>

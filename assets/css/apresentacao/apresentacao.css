@@ -1,9 +1,10 @@
 .apresentacao {
     display: flex;
-    flex-direction: column;
-    line-height: 3.3rem;
     align-items: center;
-    justify-content: left;
-    padding: 10rem;
-    height: calc(50vw - 133px);
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 60%;
+    margin: auto;
+    height: calc(100vh - 110px);
+    font-size: 1.5rem;
 }
