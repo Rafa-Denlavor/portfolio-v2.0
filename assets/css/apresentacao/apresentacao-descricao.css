@@ -19,3 +19,11 @@
         opacity: 0;
     }
 }
+
+@media screen and (max-width: 768px) {
+    .apresentacao__descricao {
+        text-align: center;
+        line-height: 3rem;
+
+    }
+}

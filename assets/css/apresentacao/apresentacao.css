@@ -8,17 +8,15 @@
     font-size: 1.5rem;
 }
 
-@media screen and (min-width: 0) {
+@media screen and (min-width: 0px) and (max-width: 768px) {
     .apresentacao {
-        width: 90%;
+        width: 85%;
+        flex-direction: column;
+        justify-content: center;
     }
 }
 
-@media screen and (min-width: 768px) {
-    .apresentacao {
-        width: 75%;
-    }
-}
+
 
 @media screen and (min-width: 1024px) {
     .apresentacao {

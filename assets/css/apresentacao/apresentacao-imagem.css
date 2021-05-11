@@ -3,8 +3,16 @@
     border-radius: 100%;
 }
 
-@media screen and (min-width: 0) and (max-width: 768px) {
+
+@media screen and (min-width: 0) {
+    .apresentacao__imagem {
+        width: 20rem;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
     .apresentacao__imagem {
         width: 25rem;
     }
 }
+
