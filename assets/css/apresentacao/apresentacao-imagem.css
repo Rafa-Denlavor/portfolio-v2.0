@@ -1,6 +1,7 @@
 .apresentacao__imagem {
     width: 40rem;
     border-radius: 100%;
+    cursor: pointer;
 }
 
 

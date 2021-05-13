@@ -1,7 +1,10 @@
 .apresentacao__botao {
-    border: 1px solid #ff7b00 4px;
-    background-color: #ff7b00;
+    background-color: var(--cor-principal);
     border-radius:0.5rem;
     padding: 0.7rem;
     margin-right: 1.5rem;
+}
+
+.apresentacao__botao:hover {
+    background-color: var(--laranja-caro);
 }

@@ -15,4 +15,10 @@
     display: flex;
 }
 
+:root {
+    --cor-principal: #ff7b00;
+    --laranja-claro: #e89140;
+    --preto: #000;
+    --branco: #fff;
+}
 

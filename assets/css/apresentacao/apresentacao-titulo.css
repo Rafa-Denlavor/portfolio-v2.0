@@ -1,5 +1,5 @@
 .apresentacao__titulo {
     font-size: 3rem;
     color: #ff7b00;
-    background-color: white;
+    background-color: var(--branco);
 }
