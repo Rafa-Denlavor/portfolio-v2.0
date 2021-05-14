@@ -1,0 +1,20 @@
+.projetos {
+   background: linear-gradient(10deg, var(--cor-principal), );
+   background-size: 300% 300%;
+   margin: auto;
+   animation: projetos-background 10s ease infinite;
+}
+
+@keyframes projetos-background {
+   0% {
+       background-position: 0 50%;
+   }
+
+   50% {
+       background-position: 50% 100%;
+   }
+
+   100% {
+       background-position: 0 50%;
+   }
+}

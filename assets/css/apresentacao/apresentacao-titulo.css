@@ -1,5 +1,7 @@
 .apresentacao__titulo {
-    font-size: 3rem;
+    font-size: 1.7rem;
     color: #ff7b00;
-    background-color: var(--branco);
+    background-color: var(--bege);
+    text-align: center;
+    text-transform: lowercase;
 }

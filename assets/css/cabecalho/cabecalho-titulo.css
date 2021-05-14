@@ -1,7 +1,7 @@
 .cabecalho__titulo {
     text-transform: uppercase;
     text-shadow: 3px 7px 1px var(--cor-principal);
-    font-size: 4.125rem;
+    font-size: 3rem;
 }
 
 @media screen and (max-width: 768px){
