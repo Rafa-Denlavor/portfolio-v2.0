@@ -3,7 +3,7 @@
     color: var(--preto-fosco);
 }
 
-i {
+.apresentacao__link i {
     color: black;
     width: 10px;
 }

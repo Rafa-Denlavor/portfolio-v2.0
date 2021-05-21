@@ -1,9 +1,10 @@
 .apresentacao__item {
     background-color: var(--cor-principal);
     border-radius:0.5rem;
+    cursor: pointer;
     padding: 0.7rem;
-    width: 30%;
     text-align: center;
+    width: 30%;
 }
 
 .apresentacao__botao:hover {

@@ -5,6 +5,12 @@
 
 .menu__link:hover {
     color: #f7a253;
+    padding-bottom: 10px;
+    border-bottom: 3px solid var(--laranja-escuro);
+}
+
+.menu__link i {
+    color: var(--branco);
 }
 
 @media screen and (max-width: 768px) {

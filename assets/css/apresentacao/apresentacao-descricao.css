@@ -1,4 +1,5 @@
 .apresentacao__descricao {
+    width: 100%;
     line-height: 2.5rem;
     color: var(--branco);
     text-align: center;

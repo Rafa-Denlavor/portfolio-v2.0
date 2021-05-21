@@ -2,10 +2,9 @@
     display: flex;
     align-items: center;
     background-color: var(--preto-fosco);
-    flex-direction: column;
-    justify-content: center;
+    justify-content: space-between;
     height: calc(100vh - 110px);
     font-size: 1.5rem;
-    width: 80%;
+    width: 55%;
     margin: auto;
 }
