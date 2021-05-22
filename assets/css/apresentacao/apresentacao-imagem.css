@@ -1,19 +1,4 @@
 .apresentacao__imagem {
-    width: 40rem;
-    border-radius: 100%;
-    cursor: pointer;
+   width: 35%;
+   border-radius: 50%;
 }
-
-
-@media screen and (min-width: 0) {
-    .apresentacao__imagem {
-        width: 20rem;
-    }
-}
-
-@media screen and (min-width: 768px) and (max-width: 1024px) {
-    .apresentacao__imagem {
-        width: 25rem;
-    }
-}
-

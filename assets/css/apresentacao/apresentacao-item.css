@@ -1,8 +1,10 @@
-.apresentacao__botao {
+.apresentacao__item {
     background-color: var(--cor-principal);
     border-radius:0.5rem;
+    cursor: pointer;
     padding: 0.7rem;
-    margin-right: 1.5rem;
+    text-align: center;
+    width: 30%;
 }
 
 .apresentacao__botao:hover {

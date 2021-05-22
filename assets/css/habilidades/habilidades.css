@@ -1,4 +1,6 @@
-.habilidades { 
-    height: 100vw;
-    position: relative;
+#habilidades { 
+    width: 100%;
+    height: 100vh;
+    padding-right: 5rem;
+    background-color: var(--bege);
 }

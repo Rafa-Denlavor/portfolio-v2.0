@@ -1,0 +1,13 @@
+.menuHamburguer {
+   background-color: var(--cor-principal);
+   border-radius: 50%;
+   bottom: 2rem;
+   height: 4rem;
+   right: 2rem;
+   width: 4rem;
+   transition: box-shadow 1s ease-in-out;
+}
+
+.menuHamburguer:hover {
+   box-shadow: 0 0 0 8px var(--cor-principal), 0 0 0 8px var(--cor-principal);
+}

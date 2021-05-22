@@ -4,10 +4,4 @@
     margin-left: 1.7rem;    
 }
 
-@media screen and (max-width: 500px) {
-    .menu__item {
-        margin-left: 0;
-        padding: 0.3rem
-    }
-}
 

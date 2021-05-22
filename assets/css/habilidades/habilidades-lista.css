@@ -1,0 +1,5 @@
+.habilidades__lista {
+   border: 2px solid var(--preto-fosco);
+   border-radius: 10px;
+   padding: 3rem;
+}

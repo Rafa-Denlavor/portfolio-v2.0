@@ -1,0 +1,5 @@
+.lista__secundaria > li {
+   color: var(--cor-principal);
+   font-weight: bold;
+   margin-left: 0.5rem;
+}

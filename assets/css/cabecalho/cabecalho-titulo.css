@@ -1,11 +1,7 @@
 .cabecalho__titulo {
     text-transform: uppercase;
-    text-shadow: 3px 7px 1px var(--cor-principal);
-    font-size: 4.125rem;
+    text-shadow: 3px 7px 1px var(--laranja-escuro);
+    font-size: 3rem;
+    color: var(--cor-principal);
 }
 
-@media screen and (max-width: 768px){
-    .cabecalho__titulo {
-        display: none;
-    }
-} 

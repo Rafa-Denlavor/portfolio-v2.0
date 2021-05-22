@@ -1,25 +1,3 @@
-.apresentacao {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    flex-wrap: wrap;
-    margin: auto;
-    height: calc(100vh - 110px);
-    font-size: 1.5rem;
-}
-
-@media screen and (min-width: 0px) and (max-width: 768px) {
-    .apresentacao {
-        width: 85%;
-        flex-direction: column;
-        justify-content: center;
-    }
-}
-
-
-
-@media screen and (min-width: 1024px) {
-    .apresentacao {
-        width: 60%;
-    }
+#apresentacao {
+    background-color: var(--preto-fosco);
 }

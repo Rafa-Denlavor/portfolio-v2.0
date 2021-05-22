@@ -1,9 +1,11 @@
 .apresentacao__descricao {
-    font-size: 1.7rem;
-    line-height: 3.7rem;
+    width: 100%;
+    line-height: 2.5rem;
+    color: var(--branco);
+    text-align: center;
 }
 
-.apresentacao__descricao:after {
+.efeito__escrita:after {
     content: '|';
     margin-left: 5px;
     opacity: 1;

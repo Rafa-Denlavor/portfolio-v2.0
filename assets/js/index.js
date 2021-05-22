@@ -1,4 +1,4 @@
-const descricao = document.querySelector(".apresentacao__descricao");
+const descricao = document.querySelector(".efeito__escrita");
 typeWrite(descricao);
 
 function typeWrite(elemento) {
