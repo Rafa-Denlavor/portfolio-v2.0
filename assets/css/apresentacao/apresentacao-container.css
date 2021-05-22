@@ -5,6 +5,24 @@
     justify-content: space-between;
     height: calc(100vh - 110px);
     font-size: 1.5rem;
-    width: 55%;
     margin: auto;
 }
+
+@media screen and (min-width: 0) {
+    .apresentacao__container {
+        width: 90%;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .apresentacao__container {
+        width: 80%;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .apresentacao__container {
+        width: 55%;
+    }
+}
+
