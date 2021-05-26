@@ -1,6 +1,6 @@
 .menuHamburguer__botao {
    display: block;
-   background-color: var(--preto-fosco);
+   background-color: var(--secondary-color);
    height: 3.5px;
    position: relative;
    width: 2rem;
@@ -10,7 +10,7 @@
 }
 
 .menuHamburguer__botao:after, .menuHamburguer__botao:before {
-   background-color: var(--preto-fosco);
+   background-color: var(--secondary-color);
    content: "";
    display: block;
    height: 100%;

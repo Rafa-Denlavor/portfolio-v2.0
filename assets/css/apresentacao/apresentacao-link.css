@@ -1,9 +1,9 @@
 .apresentacao__link {
     text-decoration: none;
-    color: var(--preto-fosco);
+    color: var(--secondary-color);
 }
 
 .apresentacao__link i {
-    color: black;
+    color: var(--black);
     width: 10px;
 }

@@ -1,5 +1,5 @@
 .apresentacao__item {
-    background-color: var(--cor-principal);
+    background-color: var(--primary-color);
     border-radius:0.5rem;
     cursor: pointer;
     padding: 0.7rem;
@@ -8,5 +8,5 @@
 }
 
 .apresentacao__botao:hover {
-    background-color: var(--laranja-caro);
+    background-color: var(--orange-dark);
 }

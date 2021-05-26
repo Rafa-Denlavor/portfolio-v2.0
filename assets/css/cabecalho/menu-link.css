@@ -1,22 +1,22 @@
 .menu__link {
     text-decoration: none;
     cursor: pointer;
-    color: var(--branco);
+    color: var(--white);
 }
 
 .menu__link:hover {
-    color: #f7a253;
+    color: var(--primary-color);
     padding-bottom: 10px;
-    border-bottom: 3px solid var(--laranja-escuro);
+    border-bottom: 3px solid var(--orange-dark);
 }
 
 .menu__link i {
-    color: var(--branco);
+    color: var(--white);
 }
 
 @media screen and (max-width: 768px) {
     .menu__link {
-        border: 1px solid var(--cor-principal);
+        border: 1px solid var(--primary-color);
         padding: 5px;
     }
 }

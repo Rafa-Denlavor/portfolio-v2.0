@@ -1,7 +1,7 @@
 .apresentacao__container {
     display: flex;
     align-items: center;
-    background-color: var(--preto-fosco);
+    background-color: var(--secondary-color);
     justify-content: space-between;
     height: calc(100vh - 110px);
     font-size: 1.5rem;

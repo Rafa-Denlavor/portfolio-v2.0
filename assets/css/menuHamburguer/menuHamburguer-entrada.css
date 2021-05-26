@@ -17,5 +17,5 @@
 }
 
 .menuHamburguer__entrada:checked ~ label .menuHamburguer {
-   box-shadow: 0 0 0 100vw var(--bege), 0 0 0 100vw var(--bege);
+   box-shadow: 0 0 0 100vw var(--third-color), 0 0 0 100vw var(--third-color);
 }

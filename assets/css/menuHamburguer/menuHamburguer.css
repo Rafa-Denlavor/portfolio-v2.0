@@ -1,5 +1,5 @@
 .menuHamburguer {
-   background-color: var(--cor-principal);
+   background-color: var(--primary-color);
    border-radius: 50%;
    bottom: 2rem;
    height: 4rem;
@@ -9,5 +9,5 @@
 }
 
 .menuHamburguer:hover {
-   box-shadow: 0 0 0 8px var(--cor-principal), 0 0 0 8px var(--cor-principal);
+   box-shadow: 0 0 0 8px var(--primary-color), 0 0 0 8px var(--primary-color);
 }

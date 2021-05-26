@@ -1,7 +1,7 @@
 .cabecalho__titulo {
     text-transform: uppercase;
-    text-shadow: 3px 7px 1px var(--laranja-escuro);
+    text-shadow: 3px 7px 1px var(--orange-dark);
     font-size: 3rem;
-    color: var(--cor-principal);
+    color: var(--primary-color);
 }
 

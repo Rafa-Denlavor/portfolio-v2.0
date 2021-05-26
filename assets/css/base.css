@@ -2,7 +2,7 @@
 
 * {
     box-sizing: border-box;
-    color: #000;
+    color: var(--white);
     font-family: 'Source Code Pro', monospace;
     font-size: 15px;
     margin: 0;
@@ -10,17 +10,17 @@
 } *
 
 body {
-    background-color: var(--preto);
+    background-color: var(--black);
 }
 
 .marca__seccao__branco {
     font-size: 2rem;
     font-weight: bold;
-    color: var(--branco);
+    color: var(--white);
     margin-top: 5rem;
     padding: 0.5rem 1rem 0.7rem 2rem;
-    text-shadow: 0.4rem 0.5rem 15px var(--bege);
-    border-bottom: 5px solid var(--bege);
+    text-shadow: 0.4rem 0.5rem 15px var(--third-color);
+    border-bottom: 5px solid var(--third-color);
     border-bottom-right-radius: 30px;
     text-transform: uppercase;
 }
@@ -29,21 +29,21 @@ body {
     display: inline-block;
     font-size: 2rem;
     font-weight: bold;
-    color: var(--cor-principal);
+    color: var(--primary-color);
     margin-top: 5rem;
     padding: 0.5rem 1rem 0.7rem 2rem;
-    text-shadow: 0.4rem 0.5rem 15px var(--cor-principal);
-    border-bottom: 5px solid var(--laranja-escuro);
+    text-shadow: 0.4rem 0.5rem 15px var(--primary-color);
+    border-bottom: 5px solid var(--orange-dark);
     border-bottom-right-radius: 30px;
     text-transform: uppercase;
 }
 
 :root {
-    --cor-principal: #ff8303;
-    --laranja-escuro: #a35709;
-    --bege: #f0e3ca;
-    --preto-fosco: #1b1a17;
-    --preto: #000000ef;
-    --branco: #fff;
+    --primary-color: #ff8303;
+    --secondary-color: #1b1a17;
+    --third-color: #f0e3ca;
+    --orange-dark: #a35709;
+    --black: #000000ef;
+    --white: #fff;
 }
 

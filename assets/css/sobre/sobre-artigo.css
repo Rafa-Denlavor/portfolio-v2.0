@@ -1,9 +1,9 @@
 .sobre__artigo p {
    margin-top: 1rem;
    width: 50%;
-   color: var(--preto);
+   color: var(--black);
    font-weight: 600;
    margin: auto;
-   padding-bottom: 1rem;
+   padding: 2rem 0 1rem 0;
    line-height: 1.5rem;
 }
