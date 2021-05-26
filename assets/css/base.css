@@ -13,29 +13,26 @@ body {
     background-color: var(--preto);
 }
 
-.titulo__preto {
-    display: inline-block;
+.marca__seccao__branco {
     font-size: 2rem;
     font-weight: bold;
     color: var(--branco);
-    background-color: var(--preto-fosco);
     margin-top: 5rem;
     padding: 0.5rem 1rem 0.7rem 2rem;
     text-shadow: 0.4rem 0.5rem 15px var(--bege);
-    border-bottom: 5px solid var(--preto);
+    border-bottom: 5px solid var(--bege);
     border-bottom-right-radius: 30px;
     text-transform: uppercase;
 }
 
-.titulo__laranja {
+.marca__seccao__laranja {
     display: inline-block;
     font-size: 2rem;
     font-weight: bold;
-    color: var(--preto-fosco);
-    background-color: var(--cor-principal);
+    color: var(--cor-principal);
     margin-top: 5rem;
     padding: 0.5rem 1rem 0.7rem 2rem;
-    text-shadow: 0.4rem 0.5rem 15px var(--preto-fosco);
+    text-shadow: 0.4rem 0.5rem 15px var(--cor-principal);
     border-bottom: 5px solid var(--laranja-escuro);
     border-bottom-right-radius: 30px;
     text-transform: uppercase;
