@@ -2,6 +2,10 @@
    display: none;
 }
 
+.menuHamburguer__entrada:checked ~ .menuHamburguer__lista {
+   opacity: 1;
+}
+
 .menuHamburguer__entrada:checked ~ label .menuHamburguer__botao {
    transform: rotate(45deg);
 }
@@ -17,5 +21,5 @@
 }
 
 .menuHamburguer__entrada:checked ~ label .menuHamburguer {
-   box-shadow: 0 0 0 100vw var(--third-color), 0 0 0 100vw var(--third-color);
+   box-shadow: 0 0 0 100vw var(--third-color), 0 0 0 100vh var(--third-color);
 }

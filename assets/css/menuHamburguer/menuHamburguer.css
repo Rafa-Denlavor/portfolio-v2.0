@@ -5,7 +5,7 @@
    height: 4rem;
    right: 2rem;
    width: 4rem;
-   transition: box-shadow 1s ease-in-out;
+   transition: box-shadow 1s;
 }
 
 .menuHamburguer:hover {
