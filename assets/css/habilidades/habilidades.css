@@ -3,3 +3,41 @@
     height: 100vh;
     background-image: url(https://images.pexels.com/photos/2653362/pexels-photo-2653362.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
 }
+
+.habilidades__container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.habilidades__item {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin: 1rem;
+ }
+
+ .habilidades__botao {
+    padding: 3.2rem 4rem;
+    margin-bottom: 1rem;
+    background-color: var(--secondary-color);
+    border: 0;
+ }
+
+ .habilidades__botao:hover {
+    border: 0px 0px 3px 3px solid var(--primary-color);
+    border-bottom: 10px;
+ }
+
+ .habilidades_tituloDaCategoria {
+    text-align: center;
+    font-size: 2rem;
+    padding-bottom: 2rem;
+ }
+
+ .habilidades_link {
+   text-decoration: none;
+   color: var(--primary-color);
+   font-size: 17px;
+ }

@@ -13,36 +13,29 @@ body {
     background-color: var(--black);
 }
 
-.marca__seccao__branco {
-    font-size: 2rem;
+.marca__seccao__preto, .marca__seccao__laranja {
+    font-size: 2.5rem;
     font-weight: bold;
-    color: var(--white);
-    margin-top: 5rem;
-    padding: 0.5rem 1rem 0.7rem 2rem;
-    text-shadow: 0.4rem 0.5rem 15px var(--third-color);
-    border-bottom: 5px solid var(--third-color);
-    border-bottom-right-radius: 30px;
+    padding: 2rem 0;
     text-transform: uppercase;
+    text-align: center;
+}
+
+.marca__seccao__preto {
+    color: var(--secondary-color);
+    text-shadow: 0.4rem 0.5rem 15px var(--black);
 }
 
 .marca__seccao__laranja {
-    display: inline-block;
-    font-size: 2rem;
-    font-weight: bold;
     color: var(--primary-color);
-    margin-top: 5rem;
-    padding: 0.5rem 1rem 0.7rem 2rem;
     text-shadow: 0.4rem 0.5rem 15px var(--primary-color);
-    border-bottom: 5px solid var(--orange-dark);
-    border-bottom-right-radius: 30px;
-    text-transform: uppercase;
 }
 
 :root {
     --primary-color: #ff8303;
     --secondary-color: #1b1a17;
     --third-color: #f0e3ca;
-    --orange-dark: #a35709;
+    --beige-dark: #e9d9bb;
     --black: #000000ef;
     --white: #fff;
 }

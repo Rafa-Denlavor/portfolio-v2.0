@@ -3,5 +3,5 @@
     color: var(--primary-color);
     background-color: var(--third-color);
     text-align: center;
-    text-transform: lowercase;
+    text-transform: capitalize;
 }
