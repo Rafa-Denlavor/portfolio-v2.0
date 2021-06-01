@@ -14,7 +14,6 @@
     grid-template-columns: repeat(2, 35rem);
     grid-template-rows: repeat(3, 25vh);
     margin-left: 1.5rem;
-    margin: 0;
 }
 
 .projetos__container {
