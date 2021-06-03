@@ -22,7 +22,7 @@ body {
 }
 
 .marca__seccao__preto {
-    color: var(--secondary-color);
+    color: var(--white);
     text-shadow: 0.4rem 0.5rem 15px var(--black);
 }
 

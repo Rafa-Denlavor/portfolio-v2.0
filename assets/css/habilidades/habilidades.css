@@ -1,16 +1,11 @@
 #habilidades { 
     width: 100%;
     height: 100vh;
-    background-image: url(https://images.pexels.com/photos/2653362/pexels-photo-2653362.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500);
-    background-size: 100%;
-    background-repeat: no-repeat;
-    object-fit: cover;
+    background-color: var(--third-color);
 }
 
 .habilidades__container {
     display: grid;
-    grid-template-columns: repeat(3);
-    grid-template-rows: repeat(3);
 }
 
 .habilidades__item {
