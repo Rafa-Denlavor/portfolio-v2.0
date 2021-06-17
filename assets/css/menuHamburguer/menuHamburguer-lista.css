@@ -1,9 +1,0 @@
-.menuHamburguer__lista {
-   position: absolute;
-   left: 50%;
-   top: 50%;
-   transform: translate(-50%, -50%);
-   opacity: 0;
-   transition: .25s 2s ease-in-out;
-   list-style: none;
-}
