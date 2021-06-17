@@ -1,7 +1,8 @@
 .menu__item {
-    font-size: 3rem;
     list-style: none;
-    margin-left: 1.7rem;    
+    margin-left: 1.7rem;
+    text-transform: uppercase;
+    font-weight: bold;
 }
 
 

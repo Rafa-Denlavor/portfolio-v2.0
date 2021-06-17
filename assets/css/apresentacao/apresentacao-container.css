@@ -3,7 +3,7 @@
     align-items: center;
     background-color: var(--secondary-color);
     justify-content: space-between;
-    height: calc(100vh - 110px);
+    height: calc(100vh - 86px);
     font-size: 1.5rem;
     margin: auto;
 }

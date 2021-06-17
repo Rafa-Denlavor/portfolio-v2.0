@@ -1,9 +1,8 @@
 .menu__lista {
     display: flex;
     flex-wrap: wrap;
-    font-size: 1.5rem;
-    justify-content: space-around;
-    padding-right: 12rem;
+    justify-content: space-between;
+    align-items: center;
 }
 
 @media screen and (max-width: 768px) {
