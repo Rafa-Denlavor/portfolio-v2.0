@@ -13,30 +13,20 @@ body {
     background-color: var(--black);
 }
 
-.marca__seccao__preto, .marca__seccao__laranja {
-    font-size: 2.5rem;
-    font-weight: bold;
-    padding: 2rem 0;
-    text-transform: uppercase;
-    text-align: center;
-}
-
-.marca__seccao__preto {
-    color: var(--white);
-    text-shadow: 0.4rem 0.5rem 15px var(--black);
-}
-
-.marca__seccao__laranja {
-    color: var(--primary-color);
-    text-shadow: 0.4rem 0.5rem 15px var(--primary-color);
-}
-
 :root {
     --primary-color: #ff8303;
     --secondary-color: #1b1a17;
-    --third-color: #f0e3ca;
     --beige-dark: #e9d9bb;
     --black: #000000ef;
     --white: #fff;
+    --gray-100: rgb(236, 236, 236);
+    --orange-100: #fcd0a5;
+    --orange-200: #fdc288;
+    --orange-300: #ffaf5f;
+    --orange-400: #f8a14a;
+    --orange-500: #f39537;
+    --orange-600: #fa9025;
+    --orange-700: #fa9025;
 }
+
 

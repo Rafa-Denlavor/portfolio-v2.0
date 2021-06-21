@@ -1,0 +1,46 @@
+.carrosel {
+   background-color: var(--secondary-color);
+   width: 850px;
+   height: 550px;
+   border-radius: 10px;
+   display: flex;
+   margin: 0;
+   justify-items: center;
+   align-items: center;
+   justify-content: center;
+}
+
+.carrosel__container {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   flex-wrap: wrap;
+   flex-direction: column;
+   margin: 5rem;
+}
+
+.carrosel__imagem {
+   width: 30rem;
+   margin-bottom: 2rem;
+}
+
+.carrosel__botao {
+   width: 11rem;
+   height: 2.5rem;
+   background-color: transparent;
+   border-color: var(--orange-200);
+   border-style:outset;
+   margin-top: 2rem;
+   border-radius: 5px;
+}
+
+.carrosel__botao:hover {
+   background-color: var(--black);
+}
+
+.carrosel__link {
+   color: var(--orange-200);
+   text-decoration: none;
+   font-weight: bold;
+   text-transform: uppercase;
+}

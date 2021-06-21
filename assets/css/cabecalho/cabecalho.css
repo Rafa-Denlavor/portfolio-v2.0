@@ -3,6 +3,9 @@
     align-items: center;
     justify-content: space-evenly;
     padding: 1rem;
+    position: fixed;
+    width: 100%;
+    background-color: var(--black);
 }
 
 @media screen and (min-width: 0px) and (max-width: 768px) {
