@@ -2,8 +2,9 @@
    width: 100%;
    height: 100vh;
    display: flex;
-   justify-content: space-evenly;
+   justify-content: center;
    align-items: center;
+   flex-direction: column;
 }
 
 .projetos {
@@ -24,4 +25,18 @@
 
 .projetos__setas {
    width: 3.5rem;
+}
+
+.projetos__navegacao {
+   padding: 1.7rem 0;
+}
+
+.projetos__link {
+   text-transform: uppercase;
+   text-decoration: none;
+   padding: 0.5rem;
+   background-color: var(--primary-color);
+   color: var(--secondary-color);
+   font-weight: bold;
+   border-radius: 5px;
 }

@@ -1,7 +1,7 @@
 .carrosel {
    background-color: var(--secondary-color);
    width: 850px;
-   height: 550px;
+   height: 450px;
    border-radius: 10px;
    display: flex;
    margin: 0;
@@ -19,9 +19,13 @@
    margin: 5rem;
 }
 
-.carrosel__imagem {
-   width: 30rem;
-   margin-bottom: 2rem;
+.carrosel__container:target {
+   display: block;
+}
+
+.carrosel__titulo {
+   font-size: 5rem;
+   color: var(--orange-400);
 }
 
 .carrosel__botao {
@@ -43,4 +47,8 @@
    text-decoration: none;
    font-weight: bold;
    text-transform: uppercase;
+}
+
+.invisivel {
+   display: none;
 }
