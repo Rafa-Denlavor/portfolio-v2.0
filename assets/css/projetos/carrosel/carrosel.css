@@ -25,14 +25,26 @@
 
 .carrosel__titulo {
    font-size: 5rem;
-   color: var(--orange-400);
+   color: var(--white);
+   text-transform: uppercase;
+}
+
+.carrosel__container--tecnologias {
+   margin-top: 1.5rem;
+}
+
+.carrosel__tecnologias {
+   text-transform: uppercase;
+   padding:0.5rem;
+   background-color: var(--black);
+   border-bottom: 2px solid var(--primary-color);
 }
 
 .carrosel__botao {
-   width: 11rem;
+   width: 32%;
    height: 2.5rem;
    background-color: transparent;
-   border-color: var(--orange-200);
+   border-color: var(--white);
    border-style:outset;
    margin-top: 2rem;
    border-radius: 5px;
@@ -43,7 +55,7 @@
 }
 
 .carrosel__link {
-   color: var(--orange-200);
+   color: var(--white);
    text-decoration: none;
    font-weight: bold;
    text-transform: uppercase;
