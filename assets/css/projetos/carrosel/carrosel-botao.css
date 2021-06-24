@@ -1,0 +1,13 @@
+.carrosel__botao {
+   width: 32%;
+   height: 2.5rem;
+   background-color: transparent;
+   border-color: var(--white);
+   border-style:outset;
+   margin-top: 2rem;
+   border-radius: 5px;
+}
+
+.carrosel__botao:hover {
+   background-color: var(--black);
+}

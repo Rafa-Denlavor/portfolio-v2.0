@@ -1,0 +1,16 @@
+.carrosel__container {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   flex-wrap: wrap;
+   flex-direction: column;
+   margin: 5rem;
+}
+
+.carrosel__container:target {
+   display: block;
+}
+
+.invisivel {
+   display: none;
+}
