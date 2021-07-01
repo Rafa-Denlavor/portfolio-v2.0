@@ -13,6 +13,12 @@ body {
     background-color: var(--black);
 }
 
+a {
+    text-decoration: none;
+    cursor: pointer;
+    text-transform: uppercase;
+}
+
 .seccao__padrao, .seccao__especial {
     position: relative;
     width: 100%;
@@ -40,6 +46,15 @@ body {
     border-bottom: 2px solid var(--primary-color);
     padding-bottom: 0.4rem;
     margin-bottom: 1.5rem;
+}
+
+.botao__padrao {
+    background-color: transparent;
+    border: 2px solid var(--primary-color);
+    border-bottom-right-radius: 10px;
+    border-top-left-radius: 10px;
+    border-style: inset;
+    padding: 0.4rem 1.2rem;
 }
 
 :root {
