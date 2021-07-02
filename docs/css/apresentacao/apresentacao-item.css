@@ -1,5 +1,5 @@
 .apresentacao__item {
-    background-color: var(--primary-color);
+    border: 2px solid var(--primary-color);
     border-radius:0.5rem;
     cursor: pointer;
     padding: 0.7rem;

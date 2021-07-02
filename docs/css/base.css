@@ -46,6 +46,7 @@ a {
     border-bottom: 2px solid var(--primary-color);
     padding-bottom: 0.4rem;
     margin-bottom: 1.5rem;
+    border-bottom-style: dashed;
 }
 
 .botao__padrao {
