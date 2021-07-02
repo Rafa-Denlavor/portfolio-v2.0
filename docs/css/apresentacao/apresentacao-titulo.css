@@ -1,7 +1,7 @@
 .apresentacao__titulo {
     font-size: 1.7rem;
-    color: var(--black);
-    background-color: var(--orange-300);
+    color: var(--orange-400);
+    background-color: var(--black);
     text-align: center;
     text-transform: capitalize;
 }

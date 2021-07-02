@@ -1,0 +1,9 @@
+.livros__ilustracao {
+   width: 12rem;
+}
+
+.livros__ilustracao:hover {
+   opacity: 60%;
+   transition-delay: 0.2s;
+}
+

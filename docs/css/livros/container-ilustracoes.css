@@ -1,0 +1,9 @@
+.container__ilustracoes {
+   border: 2px solid var(--primary-color);
+   width: 50%;
+   display: flex;
+   align-items: center;
+   justify-content: space-evenly;
+   padding: 2rem 0;
+   flex-wrap: wrap;
+}
