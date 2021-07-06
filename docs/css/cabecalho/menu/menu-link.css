@@ -1,5 +1,6 @@
 .menu__link {
     color: var(--white);
+    text-transform: none;
 }
 
 .menu__link:hover {

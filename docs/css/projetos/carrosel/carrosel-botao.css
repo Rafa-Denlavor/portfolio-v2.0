@@ -6,6 +6,8 @@
    border-style:outset;
    margin-top: 2rem;
    border-radius: 5px;
+   color: var(--orange-200);
+   font-weight: bold;
 }
 
 .carrosel__botao:hover {
