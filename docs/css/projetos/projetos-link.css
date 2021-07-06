@@ -1,12 +1,16 @@
 .projetos__link {
-   text-transform: uppercase;
+   text-transform: capitalize;
    padding: 0.4rem 1rem;
    background-color: var(--orange-500);
    color: var(--secondary-color);
    font-weight: bold;
-   border-radius: 5px;
+   border-radius: 4px;
 }
 
 .projetos__link:hover {
    background-color: var(--orange-400);
+}
+
+.projetos__link:target {
+   height: 1vh;
 }

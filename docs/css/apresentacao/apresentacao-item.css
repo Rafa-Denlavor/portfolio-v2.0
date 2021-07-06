@@ -1,12 +1,13 @@
 .apresentacao__item {
-    border: 2px solid var(--primary-color);
+    border: 2px solid var(--orange-400);
     border-radius:0.5rem;
     cursor: pointer;
     padding: 0.7rem;
     text-align: center;
     width: 20%;
+    border-style:dotted;
 }
 
-.apresentacao__botao:hover {
-    background-color: var(--orange-dark);
+.apresentacao__item:hover {
+    border-style:inset;
 }

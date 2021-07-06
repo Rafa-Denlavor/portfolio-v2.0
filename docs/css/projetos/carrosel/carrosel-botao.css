@@ -2,7 +2,7 @@
    width: 32%;
    height: 2.5rem;
    background-color: transparent;
-   border-color: var(--white);
+   border: 1px solid var(--orange-200);
    border-style:outset;
    margin-top: 2rem;
    border-radius: 5px;
@@ -10,4 +10,8 @@
 
 .carrosel__botao:hover {
    background-color: var(--black);
+}
+
+.carrosel__botao i {
+   color: var(--orange-200);
 }
