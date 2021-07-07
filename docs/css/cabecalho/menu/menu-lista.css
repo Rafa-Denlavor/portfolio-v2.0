@@ -9,5 +9,7 @@
     .menu__lista{
         padding-right: 0;
         padding: 1.5rem;
+        flex-wrap: wrap;
+        justify-content: center;
     }
 }

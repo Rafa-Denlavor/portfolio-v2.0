@@ -12,10 +12,3 @@
 .menu__link i:hover {
     color: var(--primary-color);
 }
-
-@media screen and (max-width: 768px) {
-    .menu__link {
-        border: 1px solid var(--primary-color);
-        padding: 5px;
-    }
-}

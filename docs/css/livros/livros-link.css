@@ -1,8 +1,0 @@
-.livros__link {
-   color: var(--orange-400);
-   font-weight: bold;
-}
-
-.livros__link:hover {
-   color: var(--orange-200);
-}
