@@ -52,10 +52,7 @@ i {
     display: flex;
     justify-content: center;
     align-items: center;
-}
-
-.seccao__especial {
-    padding: 10rem;
+    flex-wrap: wrap;
 }
 
 .titulo__padrao {
@@ -79,3 +76,20 @@ i {
     margin-bottom: 1rem;
 } 
 
+@media screen and (min-width: 0) {
+    .seccao__especial {
+        padding: 1rem;
+    }
+}
+
+@media screen and (min-width: 764px) {
+    .seccao__especial {
+        padding: 5rem;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .seccao__especial {
+        padding: 10rem;
+    }
+}

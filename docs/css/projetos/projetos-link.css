@@ -3,14 +3,14 @@
    padding: 0.4rem 1rem;
    background-color: var(--orange-500);
    color: var(--secondary-color);
-   font-weight: bold;
    border-radius: 4px;
+   text-transform: uppercase;
 }
 
 .projetos__link:hover {
-   background-color: var(--orange-400);
+   background-color: var(--orange-50);
 }
 
 .projetos__link:target {
-   height: 1vh;
+   display: none;
 }
