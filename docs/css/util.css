@@ -25,6 +25,8 @@ i {
     cursor: pointer;
 }
 
+/* LINKS */
+
 .botao__link {
     border: 2px dotted var(--orange-400);
     border-radius:0.5rem;
@@ -38,6 +40,8 @@ i {
     background-color: var(--orange-50);
 }
 
+/* BOTOES */
+
 .botao__padrao {
     background-color: transparent;
     border: none;
@@ -45,7 +49,29 @@ i {
     font-weight: bold;
 }
 
-.seccao__padrao, .seccao__especial {
+.botao__especial {
+    width: 32%;
+    height: 2.5rem;
+    background-color: transparent;
+    border: 1px solid var(--primary-color);
+    border-style:outset;
+    margin-top: 2rem;
+    border-radius: 5px;
+    color: var(--orange-500);
+    cursor: pointer;
+ }
+ 
+ .botao__especial:hover {
+    background-color: var(--gray-100)
+ }
+ 
+ .botao__especial i {
+    color: var(--orange-500);
+ }
+
+ /* SECOES */
+
+.secao__padrao, .secao__especial {
     position: relative;
     width: 100%;
     height: 100vh;
@@ -55,6 +81,8 @@ i {
     flex-wrap: wrap;
 }
 
+/* TITULOS */
+
 .titulo__padrao {
     font-size: 2rem;
     text-transform: uppercase;
@@ -62,7 +90,8 @@ i {
     top:10vh;
     left: 0;
     padding: 0.4rem 1.6rem 0.4rem 2.6rem;
-    flex-wrap: wrap;
+    background-color: var(--primary-color);
+    color: var(--black);
 } 
 
 .titulo__especial {
@@ -72,24 +101,39 @@ i {
     margin-bottom: 1.5rem;
 }
 
+/* REDIRECTS */
+
+.continuacao, .inicio{
+    position: absolute;
+    bottom: 1.5rem;
+    left: 49.5%;
+    width: 1.7rem;
+ }
+
+ .inicio {
+    transform: rotate(180deg);
+ }
+
+ /* CLASSES ÚNICAS */
+
 .padding__bottom {
     margin-bottom: 1rem;
 } 
 
 @media screen and (min-width: 0) {
-    .seccao__especial {
+    .secao__especial {
         padding: 1rem;
     }
 }
 
 @media screen and (min-width: 764px) {
-    .seccao__especial {
+    .secao__especial {
         padding: 5rem;
     }
 }
 
 @media screen and (min-width: 1024px) {
-    .seccao__especial {
+    .secao__especial {
         padding: 10rem;
     }
 }

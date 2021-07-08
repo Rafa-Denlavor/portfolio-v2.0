@@ -1,0 +1,49 @@
+#contrateMe {
+   background-color: var(--secondary-color);
+   justify-content: left;
+}
+
+
+.contrateMe__rotulo {
+   display: block;
+   padding: 0.6rem 0;
+   color: var(--orange-50);
+}
+
+.contrateMe__entrada, .contrateMe__areaDeTexto {
+   width: 25rem;
+   height: 3.2rem;
+   padding-left: 0.7rem;
+   border: none;
+   border-radius: 5px;
+   background-color: var(--black);
+}
+
+.contrateMe__areaDeTexto {
+   height: 4.5rem;
+   padding-top: 0.7rem;
+}
+
+.contrateMe__botao {
+   width: 100%;
+}
+
+::-webkit-input-placeholder {
+   color: var(--white);
+   font: 14px verdana, arial, sans-serif;
+}
+
+:-moz-placeholder {
+   color: var(--white);
+   font: 14px verdana, arial, sans-serif;
+}
+
+::-moz-placeholder {
+   color: var(--white);  
+   font: 14px verdana, arial, sans-serif;
+}
+
+:-ms-input-placeholder {  
+   color: var(--white);  
+   font: 14px verdana, arial, sans-serif;
+}

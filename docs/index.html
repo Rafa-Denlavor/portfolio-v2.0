@@ -12,12 +12,11 @@
     <link rel="stylesheet" href="css/util.css"><!--CSS/UTIL-->
     <link rel="stylesheet" href="css/colors.css"><!--CSS/COLORS-->
     <link rel="stylesheet" href="css/cabecalho/cabecalho.css"><!--CABECALHO-->
-    <link rel="stylesheet" href="css/cabecalho/cabecalho-titulo.css">
+    <link rel="stylesheet" href="css/cabecalho/cabecalho-logo.css">
     <link rel="stylesheet" href="css/cabecalho/menu/menu.css">
     <link rel="stylesheet" href="css/cabecalho/menu/menu-lista.css">
     <link rel="stylesheet" href="css/cabecalho/menu/menu-item.css">
     <link rel="stylesheet" href="css/cabecalho/menu/menu-link.css">
-    <link rel="stylesheet" href="css/continuacao/continuacao-ilustracao.css"><!--CONTINUACAO-->
     <link rel="stylesheet" href="css/apresentacao/apresentacao.css"><!--APRESENTACAO-->
     <link rel="stylesheet" href="css/apresentacao/apresentacao-container.css">
     <link rel="stylesheet" href="css/apresentacao/apresentacao-imagem.css">
@@ -25,7 +24,6 @@
     <link rel="stylesheet" href="css/apresentacao/apresentacao-descricao.css">
     <link rel="stylesheet" href="css/apresentacao/container-botoes.css">
     <link rel="stylesheet" href="css/projetos/projetos.css"><!--PROJETOS-->
-    <link rel="stylesheet" href="css/projetos/projetos-titulo.css">
     <link rel="stylesheet" href="css/projetos/projetos-navegacao.css">
     <link rel="stylesheet" href="css/projetos/projetos-link.css">
     <link rel="stylesheet" href="css/projetos/carrosel/carrosel.css"><!--PROJETOS/CARROSEL-->
@@ -33,25 +31,24 @@
     <link rel="stylesheet" href="css/projetos/carrosel/carrosel-titulo.css">
     <link rel="stylesheet" href="css/projetos/carrosel/carrosel-container--tecnologias.css">
     <link rel="stylesheet" href="css/projetos/carrosel/carrosel-tecnologias.css">
-    <link rel="stylesheet" href="css/projetos/carrosel/carrosel-botao.css">
     <link rel="stylesheet" href="css/livros/livros.css"><!--LIVROS-->
     <link rel="stylesheet" href="css/livros/container-descricao.css">
-    <link rel="stylesheet" href="css/livros/livros-titulo.css">
     <link rel="stylesheet" href="css/livros/container-descricao.css">
     <link rel="stylesheet" href="css/livros/container-ilustracoes.css">
     <link rel="stylesheet" href="css/livros/livros-ilustracao.css">
     <link rel="stylesheet" href="css/servicos/servicos.css"><!--SERVICOS-->
-    <link rel="stylesheet" href="css/servicos/servicos-titulo.css">
     <link rel="stylesheet" href="css/servicos/servicos-container.css">
     <link rel="stylesheet" href="css/servicos/servicos-ilustracao.css">
     <link rel="stylesheet" href="css/servicos/servicos-subtitulo.css">
     <link rel="stylesheet" href="css/servicos/servicos-descricao.css">
+    <link rel="stylesheet" href="css/contrateMe/contrateMe.css">
+    <link rel="stylesheet" href="css/rodape/rodape.css">
     <title>Rafaella Denlavor | Frontend Developer</title>
 </head>
 
-<body class="#background">
+<body id="background">
     <header class="cabecalho">
-        <h1 class="cabecalho__titulo">rd</h1>
+        <h1 class="cabecalho__logo">rd</h1>
         <div class="cabecalho__container">
             <nav class="menu">
                 <ul class="menu__lista">
@@ -68,7 +65,7 @@
                         <a class="menu__link" href="#servicos">Serviços</a>
                     </li>
                     <li class="menu__item">
-                        <a class="menu__link" href="#">Contratação</a>
+                        <a class="menu__link" href="contato.html">Contratação</a>
                     </li>
                 </ul>
             </nav>
@@ -115,10 +112,10 @@
                 </div>
             </div>
             <a href="#projetos">
-                <img src="img/seta-para-baixo.png" alt="Seta que direciona para o próxima seção" class="continuacao__ilustracao">
+                <img src="img/seta-para-baixo.png" alt="Seta que direciona para o próxima seção" class="continuacao">
             </a>
         </section>
-        <section id="projetos" class="seccao__padrao"><!--PROJETOS-->
+        <section id="projetos" class="secao__padrao"><!--PROJETOS-->
             <h2 class="projetos__titulo titulo__padrao">Projetos</h2>
             <nav class="projetos__navegacao">
                 <a href="#barbearia" class="projetos__link">Barbearia Alura</a>
@@ -137,13 +134,13 @@
                     </div>
 
                     <a href="" target="_blank">
-                        <button class="carrosel__botao"> 
+                        <button class="botao__especial"> 
                             Conheça o website
                             <i class="fas fa-external-link-alt"></i>
                         </button>
                     </a>  
                     <a href="https://github.com/Rafa-Denlavor/barbearia-alura" target="_blank">
-                        <button class="carrosel__botao">
+                        <button class="botao__especial">
                             Veja o repositório
                             <i class="fab fa-github-alt"></i>
                         </button>
@@ -159,13 +156,13 @@
                         <span class="carrosel__tecnologias">Bootstrap</span>
                     </div>
                     <a href="rafa-denlavor.github.io/fruta-e-fruto/" target="_blank">
-                        <button class="carrosel__botao">
+                        <button class="botao__especial">
                             Conheça o website
                             <i class="fas fa-external-link-alt"></i>
                         </button>
                     </a>
                     <a href="https://github.com/Rafa-Denlavor/fruta-e-fruto" target="_blank"></a>
-                        <button class="carrosel__botao">
+                        <button class="botao__especial">
                             Veja o repositório
                             <i class="fab fa-github-alt"></i>
                         </button>
@@ -180,13 +177,13 @@
                         <span class="carrosel__tecnologias">Bootstrap</span>
                     </div>
                     <a href="" target="_blank">
-                        <button class="carrosel__botao">
+                        <button class="botao__especial">
                             Conheça o website
                             <i class="fas fa-external-link-alt"></i>
                         </button>
                     </a>
                     <a href="https://github.com/Rafa-Denlavor/duka-lanches" target="_blank"></a>
-                        <button class="carrosel__botao">
+                        <button class="botao__especial">
                             Veja o repositório
                             <i class="fab fa-github-alt"></i>
                         </button>
@@ -202,13 +199,13 @@
                         <span class="carrosel__tecnologias">Javascript</span>
                     </div>
                     <a href="rafa-denlavor.github.io/nutrion/" target="_blank">
-                        <button class="carrosel__botao">
+                        <button class="botao__especial">
                             Conheça o website
                             <i class="fas fa-external-link-alt"></i>
                         </button>
                     </a>
                     <a href="https://github.com/Rafa-Denlavor/nutrion" target="_blank"></a>
-                        <button class="carrosel__botao">
+                        <button class="botao__especial">
                             Veja o repositório
                             <i class="fab fa-github-alt"></i>
                         </button>
@@ -225,13 +222,13 @@
                         <span class="carrosel__tecnologias">MVC</span>
                     </div>
                     <a href="" target="_blank"></a>
-                        <button class="carrosel__botao">
+                        <button class="botao__especial">
                             Conheça o website
                             <i class="fas fa-external-link-alt"></i>
                         </button>
                     </a>
                     <a href="https://github.com/Rafa-Denlavor/contador" target="_blank"></a>
-                        <button class="carrosel__botao">
+                        <button class="botao__especial">
                             Veja o repositório
                             <i class="fab fa-github-alt"></i>
                         </button>
@@ -239,17 +236,16 @@
                 </div>
             </div>
             <a href="#livros">
-                <img src="img/seta-para-baixo.png" alt="Seta que direciona para o próxima seção" class="continuacao__ilustracao">
+                <img src="img/seta-para-baixo.png" alt="Seta que direciona para o próxima seção" class="continuacao">
             </a>
         </section>
 
-        <section id="livros" class="seccao__especial"><!--LIVROS-->
+        <section id="livros" class="secao__especial"><!--LIVROS-->
             <h2 class="livros__titulo titulo__padrao">Livros</h2>
             <article class="container__descricao">
                 <h3 class="titulo__especial">Carreira</h3>
                 <p>Extasiei-me com a possibilidade de redigir histórias exatamente no dia 5 de julho de 2018, aos meus 15 anos, quando produzi e publiquei no Wattpad o meu primeiro livro: The New Patient.</p>
-                <p>Perdi-me em planos para aprimorar minha história e habilidade de escrita, o que causou o fim do meu primeiro livro e deu início ao segundo: Minha Frentista de Cada Dia, que hoje já conta com mais de 42.000 visualizações.</p>
-                <p>Em seguida, não parei mais e comecei a escrever não só histórias, mas tudo o que fosse possível.</p>
+                <p>Perdi-me em planos para aprimorar minha história e habilidade de escrita, o que causou o fim do meu primeiro livro e deu início ao segundo: Minha Frentista de Cada Dia, que hoje já conta com mais de 42.000 visualizações. Em seguida, entrei de cabeça nos diversos tipos de escrita criativa </p>
                 <p class="padding__bottom">Atualmente sou escritora freelancer com 4 anos de experiência e ofereço diversos serviços referente a escrita criativa.</p>
                 <a href="https://www.wattpad.com/user/Rafa-Denlavor" target="_blank" class="botao__link">
                     <button class="botao__padrao">
@@ -275,11 +271,11 @@
                 </picture>
             </div>
             <a href="#servicos">
-                <img src="img/seta-para-baixo.png" alt="Seta que direciona para o próxima seção" class="continuacao__ilustracao">
+                <img src="img/seta-para-baixo.png" alt="Seta que direciona para o próxima seção" class="continuacao">
             </a>
         </section>
         
-        <section id="servicos" class="seccao__padrao">
+        <section id="servicos" class="secao__padrao">
             <h2 class="servicos__titulo titulo__padrao">Serviços</h2>
             <div class="servicos__container">
                 <picture>
@@ -300,12 +296,19 @@
                     <img src="img/revisao.png" alt="Ícone de revisão" class="servicos__ilustracao">
                 </picture>
                 <h3 class="servicos__subtitulo">Revisão Ortográfica</h3>
-                <p class="servicos__descricao">Revisão ortográfica completa de qualquer texto.</p>
+                <p class="servicos__descricao">Revisão ortográfica completa de textos em qualquer tamanho.</p>
             </div>
+            <a href="#background">
+                <img src="img/seta-para-baixo.png" alt="Seta que direciona para o ínicio da página" class="inicio">
+            </a>
         </section>
-
     </main>
+    <footer id="rodape">
+        <h1 class="rodape__logo cabecalho__logo">rd</h1>
+        <p class="rodape__paragrafo">&#169; Rafaella Denlavor - 2021 | Todos os direitos reservados</p>
+    </footer>
 
+    </script>
     <script src="js/effectWritter.js"></script>
     <script src="js/index.js"></script>
 </body>
