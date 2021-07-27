@@ -3,21 +3,19 @@
    justify-content: center;
    align-items: center;
    flex-direction: column;
-   margin: 1.5rem;
-   padding: 2rem;
    background-color: var(--secondary-color);
+   border: 2px solid var(--orange-500);
+   border-radius: 10px;
+   transition-delay: 0.2s;
    flex-wrap: wrap;
 }
 
-.servicos__container:hover {
-   border: 2px solid var(--orange-500);
-   transition-delay: 0.2s;
-}
 
 @media screen and (min-width: 0) {
    .servicos__container {
       width: 400px;
       height: 25vh;
+      padding: 1rem;
    }
 }
 
@@ -25,6 +23,8 @@
    .servicos__container {
       width: 500px;
       height: 30vh;
+      padding: 1.5rem;
+      margin: 1.5rem;
    }
 }
 
@@ -32,5 +32,7 @@
    .servicos__container {
       width: 300px;
       height: 50vh;
+      padding: 2rem;
+      margin: 1.5rem;
    }
 }

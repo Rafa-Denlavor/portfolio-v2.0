@@ -1,4 +1,3 @@
-@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&family=Source+Code+Pro:wght@200;600&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@400&display=swap');
 
 * {
@@ -19,6 +18,7 @@ a {
     cursor: pointer;
     text-transform: uppercase;
 }
+
 i {
     color: var(--orange-400);
     width: 10px;
@@ -28,15 +28,14 @@ i {
 /* LINKS */
 
 .botao__link {
-    border: 2px dotted var(--orange-400);
+    border: 2px inset var(--orange-400);
     border-radius:0.5rem;
-    padding: 0.7rem;
+    padding: 0.7rem 2rem;
     text-align: center;
     width: 22%;
 }
 
 .botao__link:hover {
-    border-style: inset;
     background-color: var(--orange-50);
 }
 
@@ -103,11 +102,10 @@ i {
 
 /* REDIRECTS */
 
-.continuacao, .inicio{
+.continuacao, .inicio {
     position: absolute;
     bottom: 1.5rem;
     left: 49.5%;
-    width: 1.7rem;
  }
 
  .inicio {
@@ -124,11 +122,19 @@ i {
     .secao__especial {
         padding: 1rem;
     }
+
+    .continuacao, .inicio {
+        width: 1.2rem;
+    }
 }
 
 @media screen and (min-width: 764px) {
     .secao__especial {
         padding: 5rem;
+    }
+
+    .continuacao, .inicio {
+        width: 1.7rem;
     }
 }
 
