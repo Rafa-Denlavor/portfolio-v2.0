@@ -1,9 +1,15 @@
 .container__ilustracoes {
    border: 2px solid var(--primary-color);
    border-radius: 10px;
-   width: 50%;
+   width: 720px;
    display: flex;
    align-items: center;
    justify-content: space-evenly;
    padding: 2rem 0;
+}
+
+@media screen and (max-width: 1550px) {
+   .container__ilustracoes {
+      display: none;
+   }
 }
