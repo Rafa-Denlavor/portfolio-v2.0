@@ -1,0 +1,6 @@
+.rodape__logo {
+   width: 4rem;
+   color: var(--secondary-color);
+   border-color: var(--secondary-color);
+   margin-bottom: 0.7rem;
+}

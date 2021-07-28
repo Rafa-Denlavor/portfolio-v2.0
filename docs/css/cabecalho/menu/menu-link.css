@@ -9,6 +9,11 @@
     border-bottom: 3px solid var(--primary-color);
 }
 
+.menu__link i {
+    font-size: 1.3rem;
+}
+
 .menu__link i:hover {
     color: var(--primary-color);
+    font-size: x-large;
 }
