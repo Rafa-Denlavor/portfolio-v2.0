@@ -1,19 +1,16 @@
 .menu__link {
-    color: var(--white);
     text-transform: none;
-}
-
-.menu__link:hover {
-    color: var(--primary-color);
-    padding-bottom: 10px;
-    border-bottom: 3px solid var(--primary-color);
-}
-
-.menu__link i {
-    font-size: 1.3rem;
 }
 
 .menu__link i:hover {
     color: var(--primary-color);
+    padding-bottom: 10px;
+    border-bottom: 3px solid var(--primary-color);
     font-size: x-large;
+
+}
+
+.menu__link i {
+    font-size: 1.3rem;
+    margin: 0 1rem;
 }
