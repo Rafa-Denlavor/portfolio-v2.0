@@ -13,7 +13,6 @@
     <link rel="stylesheet" href="css/colors.css"><!--CSS/COLORS-->
     <link rel="stylesheet" href="css/cabecalho/cabecalho.css"><!--CABECALHO-->
     <link rel="stylesheet" href="css/cabecalho/cabecalho-logo.css">
-    <link rel="stylesheet" href="css/cabecalho/menu/menu.css">
     <link rel="stylesheet" href="css/cabecalho/menu/menu-lista.css">
     <link rel="stylesheet" href="css/cabecalho/menu/menu-item.css">
     <link rel="stylesheet" href="css/cabecalho/menu/menu-link.css">
@@ -24,11 +23,10 @@
     <link rel="stylesheet" href="css/apresentacao/apresentacao-descricao.css">
     <link rel="stylesheet" href="css/apresentacao/container-botoes.css">
     <link rel="stylesheet" href="css/projetos/projetos.css"><!--PROJETOS-->
-    <link rel="stylesheet" href="css/projetos/projetos-navegacao.css">
-    <link rel="stylesheet" href="css/projetos/projetos-link.css">
     <link rel="stylesheet" href="css/projetos/carrosel/carrosel.css"><!--PROJETOS/CARROSEL-->
     <link rel="stylesheet" href="css/projetos/carrosel/carrosel-container.css">
     <link rel="stylesheet" href="css/projetos/carrosel/carrosel-titulo.css">
+    <link rel="stylesheet" href="css/projetos/carrosel/carrosel-descricao.css">
     <link rel="stylesheet" href="css/projetos/carrosel/carrosel-container--tecnologias.css">
     <link rel="stylesheet" href="css/projetos/carrosel/carrosel-tecnologias.css">
     <link rel="stylesheet" href="css/livros/livros.css"><!--LIVROS-->
@@ -101,7 +99,7 @@
                             </a>
                             <a href="https://github.com/Rafa-Denlavor" target="_blank" class="botao__link">
                                 <button class="botao__padrao">
-                                    <i class="fab fa-github-alt" title="Acesse o GitHub"></i>
+                                    <i class="fab fa-github title="Acesse o GitHub"></i>
                                 </button>
                             </a>
                             <a href="img/Rafaella Lopes.pdf" target="_blank" download class="botao__link">
@@ -118,104 +116,95 @@
             </a>
         </section>
         <section id="projetos" class="secao__padrao"><!--PROJETOS-->
-            <h2 class="projetos__titulo titulo__padrao">Projetos</h2>
-            <nav class="projetos__navegacao">
-                <a href="#barbearia" class="projetos__link">Barbearia Alura</a>
-                <a href="#fruta&fruto" class="projetos__link">Fruta&Fruto</a>
-                <a href="#duka-lanches" class="projetos__link">Duka Lanches</a>
-                <a href="#nutrion" class="projetos__link">Nutrion</a>
-                <a href="#contador" class="projetos__link">Contador</a>
-            </nav>
-            <div class="carrosel" title="Clique em um dos projetos acima para visuaizá-lo...">
-                <div id="barbearia" class="carrosel__container invisivel">
+            <h2 class="titulo__padrao">Projetos</h2>
+            <div class="carrosel">
+                <div id="barbearia" class="carrosel__container">
                     <h3 class="carrosel__titulo">Barbearia Alura</h1>
-                    <p>Primeiro site desenvolvido, porém atualizado com a implementação de novas funcionalidades e um novo designer.</p>
+                    <p class="carrosel__descricao">Primeiro site desenvolvido, porém atualizado com a implementação de novas funcionalidades e um novo designer.</p>
                     <div class="carrosel__container--tecnologias">
                         <span class="carrosel__tecnologias">Html</span>
                         <span class="carrosel__tecnologias">Css</span>
                     </div>
-
-                    <a href="" target="_blank">
-                        <button class="botao__especial"> 
-                            Conheça o website
-                            <i class="fas fa-external-link-alt"></i>
-                        </button>
-                    </a>  
-                    <a href="https://github.com/Rafa-Denlavor/barbearia-alura" target="_blank">
-                        <button class="botao__especial">
-                            Veja o repositório
-                            <i class="fab fa-github-alt"></i>
-                        </button>
-                    </a>
-                    
+                    <div>
+                        <a href="https://rafa-denlavor.github.io/barbearia-alura/" target="_blank" title="Acesse o website">
+                            <button class="botao__especial"> 
+                                <i class="fas fa-external-link-alt"></i>
+                            </button>
+                        </a>  
+                        <a href="https://github.com/Rafa-Denlavor/barbearia-alura" target="_blank" title="Acesse o GitHub">
+                            <button class="botao__especial">
+                                <i class="fab fa-github-alt"></i>
+                            </button>
+                        </a>
+                    </div>
                 </div>
-                <div id="fruta&fruto" class="carrosel__container invisivel">
+                <div id="fruta&fruto" class="carrosel__container">
                     <h3 class="carrosel__titulo">Fruta&Fruto</h3>
-                    <p>Projeto criado para desenvolver habilidades com o Bootstrap. Site destinado para o compartilhamento de receitas saudáveis.</p>
+                    <p class="carrosel__descricao">Projeto criado para desenvolver habilidades com o Bootstrap. Site destinado para o compartilhamento de receitas saudáveis.</p>
                     <div class="carrosel__container--tecnologias">
                         <span class="carrosel__tecnologias">Html</span>
                         <span class="carrosel__tecnologias">Css</span>
                         <span class="carrosel__tecnologias">Bootstrap</span>
                     </div>
-                    <a href="rafa-denlavor.github.io/fruta-e-fruto/" target="_blank">
-                        <button class="botao__especial">
-                            Conheça o website
-                            <i class="fas fa-external-link-alt"></i>
-                        </button>
-                    </a>
-                    <a href="https://github.com/Rafa-Denlavor/fruta-e-fruto" target="_blank"></a>
-                        <button class="botao__especial">
-                            Veja o repositório
-                            <i class="fab fa-github-alt"></i>
-                        </button>
-                    </a>
+                    <div>
+                        <a href="https://rafa-denlavor.github.io/fruta-e-fruto/" target="_blank" title="Acesse o website">
+                            <button class="botao__especial">
+                                <i class="fas fa-external-link-alt"></i>
+                            </button>
+                        </a>
+                        <a href="https://github.com/Rafa-Denlavor/fruta-e-fruto" target="_blank" title="Acesse o GitHub">
+                            <button class="botao__especial">
+                                <i class="fab fa-github-alt"></i>
+                            </button>
+                        </a>
+                    </div>
                 </div>
-                <div id="duka-lanches" class="carrosel__container invisivel">
+                <div id="duka-lanches" class="carrosel__container">
                     <h3 class="carrosel__titulo">Duka Lanches</h3>
-                    <p>Projeto freelancer desenvolvido para a hamburgueria Duka Lanches, de acordo com as regras de negócios impostas. Conta com funcionalidades como: home, cardápio, localização e horários.</p>
+                    <p class="carrosel__descricao">Projeto freelancer desenvolvido para a hamburgueria Duka Lanches, de acordo com as regras de negócios impostas. Conta com funcionalidades como: home, cardápio, localização e horários.</p>
                     <div class="carrosel__container--tecnologias">
                         <span class="carrosel__tecnologias">Html</span>
                         <span class="carrosel__tecnologias">Css</span>
                         <span class="carrosel__tecnologias">Bootstrap</span>
                     </div>
-                    <a href="" target="_blank">
-                        <button class="botao__especial">
-                            Conheça o website
-                            <i class="fas fa-external-link-alt"></i>
-                        </button>
-                    </a>
-                    <a href="https://github.com/Rafa-Denlavor/duka-lanches" target="_blank"></a>
-                        <button class="botao__especial">
-                            Veja o repositório
-                            <i class="fab fa-github-alt"></i>
-                        </button>
-                    </a>
+                    <div>
+                        <a href="" target="_blank" title="Acesse o website">
+                            <button class="botao__especial">
+                                <i class="fas fa-external-link-alt"></i>
+                            </button>
+                        </a>
+                        <a href="https://github.com/Rafa-Denlavor/duka-lanches" target="_blank" title="Acesse o GitHub">
+                            <button class="botao__especial">
+                                <i class="fab fa-github-alt"></i>
+                            </button>
+                        </a>
+                    </div>
                 </div>
-                <div id="nutrion" class="carrosel__container invisivel">
+                <div id="nutrion" class="carrosel__container">
                     <h3 class="carrosel__titulo">Nutrion</h3>
-                    <p>[EM ANDAMENTO] Nutrion é um gerenciamento de pacientes que atualmente conta com três funcionalidades: Login, Histórico de Pacientes e o Diário DayClient. Juntas irão centralizar todas as informações do cliente em um só sistema.
+                    <p class="carrosel__descricao">Nutrion é um gerenciamento de pacientes que atualmente conta com três funcionalidades, que juntas irão centralizar todas as informações do cliente em um só sistema.
                     </p>
                     <div class="carrosel__container--tecnologias">
                         <span class="carrosel__tecnologias">Html</span>
                         <span class="carrosel__tecnologias">Css</span>
                         <span class="carrosel__tecnologias">Javascript</span>
                     </div>
-                    <a href="rafa-denlavor.github.io/nutrion/" target="_blank">
-                        <button class="botao__especial">
-                            Conheça o website
-                            <i class="fas fa-external-link-alt"></i>
-                        </button>
-                    </a>
-                    <a href="https://github.com/Rafa-Denlavor/nutrion" target="_blank"></a>
-                        <button class="botao__especial">
-                            Veja o repositório
-                            <i class="fab fa-github-alt"></i>
-                        </button>
-                    </a>
+                    <div>
+                        <a href="https://rafa-denlavor.github.io/nutrion/" target="_blank" title="Acesse o website">
+                            <button class="botao__especial">
+                                <i class="fas fa-external-link-alt"></i>
+                            </button>
+                        </a>
+                        <a href="https://github.com/Rafa-Denlavor/nutrion" target="_blank" title="Acesse o GitHub">
+                            <button class="botao__especial">
+                                <i class="fab fa-github-alt"></i>
+                            </button>
+                        </a>
+                    </div>
                 </div>
-                <div id="contador" class="carrosel__container invisivel">
+                <div id="contador" class="carrosel__container">
                     <h3 class="carrosel__titulo">Contador</h3>
-                    <p>Projeto simples desenvolvido para aprimorar o meu desenvolvimento como Frontend na idwall. Ele não aceita números negativos e não ultrapassa valores acima de 1.000.</p>
+                    <p class="carrosel__descricao">Projeto simples desenvolvido para aprimorar o meu desenvolvimento como Frontend na idwall. Ele não aceita números negativos e não ultrapassa valores acima de 1.000.</p>
                     <div class="carrosel__container--tecnologias">
                         <span class="carrosel__tecnologias">Javascript</span>
                         <span class="carrosel__tecnologias">React</span>
@@ -223,18 +212,18 @@
                         <span class="carrosel__tecnologias">Node js</span>
                         <span class="carrosel__tecnologias">MVC</span>
                     </div>
-                    <a href="" target="_blank"></a>
-                        <button class="botao__especial">
-                            Conheça o website
-                            <i class="fas fa-external-link-alt"></i>
-                        </button>
-                    </a>
-                    <a href="https://github.com/Rafa-Denlavor/contador" target="_blank"></a>
-                        <button class="botao__especial">
-                            Veja o repositório
-                            <i class="fab fa-github-alt"></i>
-                        </button>
-                    </a>
+                    <div>
+                        <a href="#" target="_blank" title="Acesse o website">
+                            <button class="botao__especial">
+                                <i class="fas fa-external-link-alt"></i>
+                            </button>
+                        </a>
+                        <a href="https://github.com/Rafa-Denlavor/contador" target="_blank" title="Acesse o GitHub">
+                            <button class="botao__especial">
+                                <i class="fab fa-github-alt"></i>
+                            </button>
+                        </a>
+                    </div>
                 </div>
             </div>
             <a href="#livros">

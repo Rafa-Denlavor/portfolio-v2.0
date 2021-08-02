@@ -2,5 +2,5 @@
    text-transform: uppercase;
    padding:0.5rem;
    background-color: var(--black);
-   border-bottom: 2px solid var(--primary-color);
+   border-bottom: 3px solid var(--primary-color);
 }

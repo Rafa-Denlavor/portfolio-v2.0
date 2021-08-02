@@ -1,11 +1,7 @@
 .carrosel {
-   background-color: var(--secondary-color);
-   width: 850px;
-   height: 450px;
-   border-radius: 10px;
    display: flex;
-   margin: 0;
    justify-items: center;
    align-items: center;
    justify-content: center;
+   flex-wrap: wrap;
 }

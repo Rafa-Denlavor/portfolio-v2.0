@@ -1,3 +1,8 @@
 #projetos {
    flex-direction: column;
+   padding: 10%;
+   background-image: url("https://images.pexels.com/photos/3274903/pexels-photo-3274903.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+   background-size: calc(100% + 30vh);
+   background-repeat: no-repeat;
+   background-clip: border-box;
 }
