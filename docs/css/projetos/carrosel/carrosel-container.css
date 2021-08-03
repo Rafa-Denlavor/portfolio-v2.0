@@ -11,3 +11,10 @@
    background-color: var(--secondary-color);
    margin: 1.5rem;
 }
+
+@media screen and (min-width: 0) and (max-width: 764px){
+   .carrosel__container {
+      margin: 0.7rem;
+      background-color: var(--secondary-color);
+   }
+}

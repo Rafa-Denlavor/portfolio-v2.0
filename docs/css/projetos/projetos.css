@@ -6,3 +6,12 @@
    background-repeat: no-repeat;
    background-clip: border-box;
 }
+
+@media screen and (min-width: 0) and (max-width: 764px){
+   #projetos {
+      padding: 30% 0 20% 0;
+      margin: 0;
+      background-color: var(--black);
+      background-image: none;
+   }
+}
