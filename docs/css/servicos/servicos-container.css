@@ -9,7 +9,6 @@
    flex-wrap: wrap;
 }
 
-
 @media screen and (min-width: 0) {
    .servicos__container {
       width: 400px;
