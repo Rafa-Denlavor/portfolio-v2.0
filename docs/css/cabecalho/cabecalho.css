@@ -2,13 +2,17 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 1rem 10rem;
+    padding: 1.2rem 10rem;
     width: 100%;
     background-color: var(--black);
+    position: fixed;
+    z-index: 1;
 }
 
 @media screen and (min-width: 0px) and (max-width: 768px) {
     .cabecalho {
         flex-direction: column;
+        position: static;
+        z-index: none;
     }
 }

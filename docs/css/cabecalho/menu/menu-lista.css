@@ -1,6 +1,5 @@
 .menu__lista {
     display: flex;
-    flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
 }
@@ -9,7 +8,7 @@
     .menu__lista{
         padding-right: 0;
         padding: 1.5rem;
-        flex-wrap: wrap;
         justify-content: center;
+
     }
 }
