@@ -1,7 +1,7 @@
 #projetos {
    flex-direction: column;
    padding: 10%;
-   background-image: url("https://images.pexels.com/photos/3274903/pexels-photo-3274903.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+   background-image: url("https://images.pexels.com/photos/748626/pexels-photo-748626.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
    background-size: calc(100% + 30vh);
    background-repeat: no-repeat;
    background-clip: border-box;
@@ -11,7 +11,8 @@
    #projetos {
       padding: 30% 0 20% 0;
       margin: 0;
-      background-color: var(--black);
+      background-color: var(--black-opacity);
       background-image: none;
+      background-image: url("https://images.pexels.com/photos/1154610/pexels-photo-1154610.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
    }
 }

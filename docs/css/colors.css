@@ -1,11 +1,15 @@
 :root {
    --primary-color: #ff8303;
    --secondary-color: #1b1a17;
-   --black: #000000ef;
    --white: #fff;
+
+   --black: #000000ef;
+   --black-opacity: #1b1a17ce;
+
    --gray-100: #ececec;
    --gray-200: #d8d1d1;
    --gray-800: #1b1a17;
+
    --orange-25: #fcecdc;
    --orange-50: #ffe1c5;
    --orange-100: #fcd0a5;

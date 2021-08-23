@@ -1,4 +1,5 @@
 .apresentacao__imagem {
    width: 35%;
    border-radius: 50%;
+   box-shadow: 0 0 10px 20px #00000024, 0 0 6px 6px #1b1a17;
 }
