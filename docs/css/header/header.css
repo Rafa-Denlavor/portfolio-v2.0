@@ -1,4 +1,4 @@
-.cabecalho {
+.header {
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -10,7 +10,7 @@
 }
 
 @media screen and (min-width: 0px) and (max-width: 768px) {
-    .cabecalho {
+    .header {
         flex-direction: column;
         position: static;
         z-index: none;

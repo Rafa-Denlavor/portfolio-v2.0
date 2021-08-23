@@ -1,4 +1,4 @@
-.apresentacao__container {
+.presentation__containerContent {
     display: flex;
     align-items: center;
     background-color: var(--secondary-color);
@@ -10,7 +10,7 @@
 }
 
 @media screen and (min-width: 0) and (max-width: 768px){
-    .apresentacao__container {
+    .presentation__containerContent {
         width: 80%;
         justify-content: center;
         flex-direction: column;
@@ -18,13 +18,13 @@
 }
 
 @media screen and (min-width: 768px) {
-    .apresentacao__container {
+    .presentation__containerContent {
         width: 70%;
     }
 }
 
 @media screen and (min-width: 1024px) {
-    .apresentacao__container {
+    .presentation__containerContent {
         width: 60%;
     }
 }

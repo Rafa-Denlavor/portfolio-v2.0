@@ -1,11 +1,11 @@
-.apresentacao__descricao {
+.presentation__description {
     width: 100%;
     line-height: 2.5rem;
     color: var(--white);
     text-align: center;
 }
 
-.efeito__escrita:after {
+.writing__effect:after {
     content: '|';
     margin-left: 5px;
     opacity: 1;
@@ -23,7 +23,7 @@
 }
 
 @media screen and (max-width: 768px) {
-    .apresentacao__descricao {
+    .presentation__description {
         text-align: center;
         line-height: 3rem;
 

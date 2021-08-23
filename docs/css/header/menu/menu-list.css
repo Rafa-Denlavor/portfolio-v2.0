@@ -1,11 +1,11 @@
-.menu__lista {
+.menu__list {
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
 @media screen and (max-width: 768px) {
-    .menu__lista{
+    .menu__list {
         padding-right: 0;
         padding: 1.5rem;
         justify-content: center;
