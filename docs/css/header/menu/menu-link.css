@@ -1,13 +1,7 @@
-.menu__link {
-    text-transform: none;
-}
-
 .menu__link i:hover {
-    color: var(--primary-color);
-    padding-bottom: 10px;
-    border-bottom: 3px solid var(--primary-color);
-    font-size: x-large;
-
+    color: var(--orange-25);
+    font-size: 1.6rem;
+    transition: 1s;
 }
 
 .menu__link i {

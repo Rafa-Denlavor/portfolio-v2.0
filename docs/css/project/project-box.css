@@ -1,4 +1,4 @@
-.carrosel__container {
+.project__box {
    display: flex;
    align-items: center;
    justify-content: center;
@@ -13,7 +13,7 @@
 }
 
 @media screen and (min-width: 0) and (max-width: 764px){
-   .carrosel__container {
+   .project__box {
       margin: 0.7rem;
       background-color: var(--secondary-color);
    }

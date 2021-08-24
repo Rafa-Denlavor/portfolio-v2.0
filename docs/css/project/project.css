@@ -1,4 +1,4 @@
-#projetos {
+#project {
    flex-direction: column;
    padding: 10%;
    background-image: url("https://images.pexels.com/photos/748626/pexels-photo-748626.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
@@ -7,12 +7,11 @@
    background-clip: border-box;
 }
 
-@media screen and (min-width: 0) and (max-width: 764px){
-   #projetos {
+@media screen and (max-width: 1400px) {
+   #project {
       padding: 30% 0 20% 0;
       margin: 0;
-      background-color: var(--black-opacity);
+      background-color: var(--black);
       background-image: none;
-      background-image: url("https://images.pexels.com/photos/1154610/pexels-photo-1154610.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
    }
 }
