@@ -1,4 +1,4 @@
-# portfolio-v2.0
+# portfolio
 
 ![GitHub repo size](https://img.shields.io/github/repo-size/rafa-denlavor/portfolio-v2.0?style=for-the-badge)
 ![GitHub language count](https://img.shields.io/github/languages/count/rafa-denlavor/portfolio-v2.0?style=for-the-badge)
