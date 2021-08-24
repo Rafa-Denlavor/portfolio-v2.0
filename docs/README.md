@@ -1,10 +1,10 @@
 # portfolio-v2.0
 
-![GitHub repo size](https://img.shields.io/github/repo-size/portfolio-v2.0/README-template?style=for-the-badge)
-![GitHub language count](https://img.shields.io/github/languages/count/portfolio-v2.0/README-template?style=for-the-badge)
-![GitHub forks](https://img.shields.io/github/forks/portfolio-v2.0/README-template?style=for-the-badge)
-![Bitbucket open issues](https://img.shields.io/bitbucket/issues/portfolio-v2.0/README-template?style=for-the-badge)
-![Bitbucket open pull requests](https://img.shields.io/bitbucket/pr-raw/portfolio-v2.0/README-template?style=for-the-badge)
+![GitHub repo size](https://img.shields.io/github/repo-size/rafa-denlavor/portfolio-v2.0?style=for-the-badge)
+![GitHub language count](https://img.shields.io/github/languages/count/rafa-denlavor/portfolio-v2.0?style=for-the-badge)
+![GitHub forks](https://img.shields.io/github/forks/rafa-denlavor/portfolio-v2.0?style=for-the-badge)
+![Bitbucket open issues](https://img.shields.io/bitbucket/issues/rafa-denlavor/portfolio-v2.0?style=for-the-badge)
+![Bitbucket open pull requests](https://img.shields.io/bitbucket/pr-raw/rafa-denlavor/portfolio-v2.0?style=for-the-badge)
 <img src="./img/print-home.png" alt="Home atual">
 
 > Portfolio de desenvolvido para promover e divulgar livros, projetos e serviços como: Criação de Site, Apresentação, Escrita Criativa e Revisão Ortográfica. Além contar com as minhas redes sociais e currículo para download.
