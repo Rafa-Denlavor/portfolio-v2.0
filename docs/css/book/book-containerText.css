@@ -1,9 +1,9 @@
-.container__descricao {
+.book__containerText {
    padding-right: 4rem;
    width: 40%;
 }
 
-.container__descricao > p {
+.book__containerText > p {
    padding-bottom: 1rem;
 }
 

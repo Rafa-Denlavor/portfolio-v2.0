@@ -1,10 +1,10 @@
-#servicos {
+#services {
    flex-wrap: wrap;
    padding: 0;
 }
 
 @media screen and (min-width: 0) and (max-width: 764px) {
-   #servicos {
+   #services {
       padding: 30% 0 20% 0;
    }
 }

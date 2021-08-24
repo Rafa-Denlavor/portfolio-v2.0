@@ -1,25 +1,25 @@
-.servicos__ilustracao {
+.services__illustration {
    cursor: auto;
    display: flex;
    justify-content: center;
 }
 
 @media screen and (min-width: 0) {
-   .servicos__ilustracao {
+   .services__illustration {
       font-size: 2rem;
       padding-bottom: 0.5rem;
    }
 }
 
 @media screen and (min-width: 764px) {
-   .servicos__ilustracao {
+   .services__illustration {
       font-size: 2rem;
       padding-bottom: 0.7rem;
    }
 }
 
 @media screen and (min-width: 1024px) {
-   .servicos__ilustracao {
+   .services__illustration {
       font-size: 3rem;
       padding-bottom: 1rem;
    }

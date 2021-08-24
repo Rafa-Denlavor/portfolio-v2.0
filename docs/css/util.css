@@ -26,49 +26,42 @@ i {
     cursor: pointer;
 }
 
-/* LINKS */
+/* LINKS / BOTOẼS */
 
-.botao__link {
+.button__default {
     border: 2px inset var(--orange-400);
     border-radius:0.5rem;
     padding: 0.7rem 2rem;
-    text-align: center;
     width: 22%;
-}
-
-.botao__link:hover, .botao__especial:hover {
-    background-color: var(--orange-25);
-}
-
-/* BOTOES */
-
-.botao__padrao {
     background-color: transparent;
-    border: none;
     color: var(--orange-400);
     font-weight: bold;
 }
 
-.botao__especial {
+.button__special {
     width: 200px;
     height: 2.5rem;
     background-color: var(--orange-500);
     border-top: 0;
     border-left: 0;
-    margin-top: 2rem;
     border-radius: 5px;
+    margin-top: 2rem;
     color: var(--black);
     cursor: pointer;
     font-weight: bold;
  }
  
- .botao__especial i {
+ .button__special i {
     color: var(--secondary-color);
  }
 
+ .button__default:hover, .button__special:hover {
+    background-color: var(--orange-25);
+}
+
  /* SECOES */
 
-.secao__padrao, .secao__especial {
+.section__default, .section__special {
     position: relative;
     width: 100%;
     min-height: 100vh;
@@ -80,7 +73,7 @@ i {
 
 /* TITULOS */
 
-.titulo__padrao {
+.title__default {
     font-size: 2rem;
     text-transform: uppercase;
     position: absolute;
@@ -91,7 +84,7 @@ i {
     color: var(--black);
 } 
 
-.titulo__especial {
+.title__special {
     font-size: 2rem;
     border-left: 2px solid var(--orange-500);
     padding: 0 0 0.4rem 0.7rem;
@@ -100,14 +93,21 @@ i {
 
 /* REDIRECTS */
 
-.continuacao, .inicio {
+ .direct__home {
+    transform: rotate(180deg);
+ }
+
+ .direct__special {
+    border: 9px solid var(--secondary-color);
+    background-color: var(--secondary-color);
+    border-radius: 50%;
+    width: 2.7rem;
+ }
+
+ .direct__default, .direct__home, .direct__special {
     position: absolute;
     bottom: 1.5rem;
     left: 49.5%;
- }
-
- .inicio {
-    transform: rotate(180deg);
  }
 
  /* CLASSES ÚNICAS */
@@ -116,28 +116,30 @@ i {
     margin-bottom: 1rem;
 } 
 
+/* MIDIAS QUERYS */
+
 @media screen and (min-width: 0) {
-    .secao__especial {
+    .section__special {
         padding: 1rem;
     }
 
-    .continuacao, .inicio {
+    .direct__default, .direct__home {
         width: 1.2rem;
     }
 }
 
 @media screen and (min-width: 764px) {
-    .secao__especial {
+    .section__special {
         padding: 5rem;
     }
 
-    .continuacao, .inicio {
+    .direct__default, .direct__home {
         width: 1.7rem;
     }
 }
 
 @media screen and (min-width: 1024px) {
-    .secao__especial {
+    .section__special {
         padding: 10rem;
     }
 }
