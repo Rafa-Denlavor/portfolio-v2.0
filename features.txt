@@ -1,0 +1,12 @@
+1. Adicionar accesskeys em todos os botões e links.
+2. Retirar botões dentro de links
+3. Olhar com mais carinho para a acessibilidade
+4. Pesquisar mais sobre a tag time.
+5. Pesquisar mais sobre atributos datetime, tabindex
+6. Repensar rodapé.
+7. Criar seção de habilidades.
+8. Concertar icons do menu.
+9. Fazer uma barra de rolagem personalizada.
+10. Adicionar mais banners e imagens meu autopromovendo.
+11. Desenvolver seção de contatos
+12. Refatorar código da seção de apresentação (retirar as duas divs e deixar o atributo flex: 1)
