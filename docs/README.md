@@ -9,8 +9,6 @@
 ### Tela inicial
 <img src="img/print-home.png" alt="Home atual">
 
-### Seção 
-
 > Portfolio de desenvolvido para promover e divulgar livros, projetos e serviços como: Criação de Site, Apresentação, Escrita Criativa e Revisão Ortográfica. Além contar com as minhas redes sociais e currículo para download.
 ### Ajustes e melhorias
 O projeto ainda está em desenvolvimento e as próximas atualizações serão voltadas nas seguintes tarefas:
