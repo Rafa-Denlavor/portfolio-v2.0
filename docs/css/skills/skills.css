@@ -1,0 +1,12 @@
+#skills {
+   background-color: var(--secondary-color);
+   justify-content: space-evenly;
+}
+
+.skills__container {
+   padding: 2rem;
+}
+
+.skills__progress {
+   width: 20rem;
+}

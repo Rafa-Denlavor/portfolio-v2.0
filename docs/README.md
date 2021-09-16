@@ -5,7 +5,11 @@
 ![GitHub forks](https://img.shields.io/github/forks/rafa-denlavor/portfolio-v2.0?style=for-the-badge)
 ![Bitbucket open issues](https://img.shields.io/bitbucket/issues/rafa-denlavor/portfolio-v2.0?style=for-the-badge)
 ![Bitbucket open pull requests](https://img.shields.io/bitbucket/pr-raw/rafa-denlavor/portfolio-v2.0?style=for-the-badge)
-<img src="./img/print-home.png" alt="Home atual">
+
+### Tela inicial
+<img src="img/print-home.png" alt="Home atual">
+
+### Seção 
 
 > Portfolio de desenvolvido para promover e divulgar livros, projetos e serviços como: Criação de Site, Apresentação, Escrita Criativa e Revisão Ortográfica. Além contar com as minhas redes sociais e currículo para download.
 ### Ajustes e melhorias
