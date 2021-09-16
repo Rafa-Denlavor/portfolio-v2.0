@@ -1,29 +1,7 @@
-@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@300&display=swap');
+/* LOGO */
 
-* {
-    box-sizing: border-box;
-    color: var(--white);
-    font-family: 'Inconsolata', monospace;
-    font-size: 16px;
-    margin: 0;
-    padding: 0;
-} *
-
-body {
-    background-color: var(--black);
-    width: 100%;
-}
-
-a {
-    text-decoration: none;
-    cursor: pointer;
-    text-transform: uppercase;
-}
-
-i {
-    color: var(--orange-400);
-    width: 10px;
-    cursor: pointer;
+.logo {
+    width: 12rem;
 }
 
 /* LINKS / BOTOẼS */
@@ -116,7 +94,7 @@ i {
     margin-bottom: 1rem;
 } 
 
-/* MIDIAS QUERYS */
+/* MEDIA QUERY */
 
 @media screen and (min-width: 0) {
     .section__special {

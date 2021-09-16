@@ -1,10 +1,11 @@
-.menu__link i:hover {
-    color: var(--orange-25);
-    font-size: 1.6rem;
-    transition: 1s;
+.menu__link {
+  padding: 0 20px;
 }
 
 .menu__link i {
-    font-size: 1.3rem;
-    margin: 0 1rem;
+  font-size: 1.3rem;
+}
+
+.menu__link i:hover {
+  color: var(--white);
 }
