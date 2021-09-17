@@ -1,3 +1,6 @@
 .project__boxTecnology {
    margin-top: 1.5rem;
+   flex-wrap: wrap;
+   display: flex;
+   justify-content: center;
 }
